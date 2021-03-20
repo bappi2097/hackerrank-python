@@ -4,6 +4,6 @@ if __name__ == '__main__':
     sec = -101
     top = max(arr)
     for i in arr:
-        if i>sec and i<top:
-            sec=i
+        if sec < i < top:
+            sec = i
     print(sec)
